@@ -1,24 +1,21 @@
-/* font-family: 'Fjalla One', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Open Sans', sans-serif; */
 
 body {
-    background-color: #fff3e6;
+    background-color: #dddddd;
     font-family: 'Source Sans Pro', sans-serif;  
     margin: 0;
      
 }
 
 header {
-    background-color: #fbb740;
+    background-color: #55b3b1;
     width: 100%;
     display: flex;    
-    height: 10vh;
+    height: 60px;
     justify-content: space-between;
     align-items: center;   
-    position: fixed; 
+    /* position: fixed;  */
     bottom:auto;
-    border-radius: 13px 13px 0 0;;
+    
 }
 
 .menu {
@@ -34,20 +31,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* height: inherit;  */
-}
-
-li {
-    height: inherit;
-    /* display: flex;
-    margin: 20px; */
-   
-}
-
-header ul li img {
-    margin: 0px 50px;
-    padding: 0px 30px;
-    cursor: pointer;
+    
 }
 
 .link{
@@ -61,18 +45,7 @@ header ul li img {
     padding: 0px 10px;
 }
 
-h1 {
-    font-family: 'Fjalla One', sans-serif;
-    line-height: 2em; 
-    font-size: 30px;
-    font-weight: 500;
-    /* font-style: normal; */
-    letter-spacing: -.2px;
-    text-transform: none;
-    margin: 0px;
-    
-    
-}
+
 
 .main {
     color:rgb(3, 12, 41);   
@@ -86,18 +59,26 @@ h1 {
     
 }
 
-.main-container h1{
+.main-container h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;    
+    letter-spacing: 2px;
+    text-transform: none;
+    margin: 0px;
+    color: black;
     width: 100%;
     font-size: 4rem;
     line-height: 100px;
     
+    
 }
 
 .main-text{
-    font-size: 2rem;
+    font-size: 40px;
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
+    color: black;
 }
 
 
@@ -105,15 +86,23 @@ h1 {
     margin: 0 150px 0 150px;
 }
 
+.about-title {
+    box-shadow: 0px 0px 0px #104b45;
+    background-color: #55b3b1;
+    width: 25%;
+    border-radius: 10px;
+    
+    
+}
 
 .about-title h1{
-    font-size: 2.5rem;
-    font-family: 'Fjalla One', sans-serif;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;    
     text-align: left;
-    color: rgb(3, 12, 41);
+    color:white;
     margin: 25px 25px 0 25px;
-    border-bottom: 5px solid #fbb740;
+    
+    
     
 }
 
@@ -200,7 +189,7 @@ h1 {
     text-align: left;
     color: rgb(3, 12, 41);
     margin: 25px 25px 40px 25px;
-    border-bottom: 5px solid #fbb740;
+    border-bottom: 5px solid #3a0a18;
 }
 
 .study-text {
@@ -242,7 +231,7 @@ h1 {
     color: rgb(3, 12, 41);
     margin: 25px 25px 80px 150px;
     padding: 0;
-    border-bottom: 5px solid #fbb740;
+    border-bottom: 5px solid #3a0a18;
     
 }
 
@@ -271,7 +260,7 @@ h1 {
 }
 
 h2 {
-    color: #104b45;
+    color: #3a0a18;
     font-family: 'Fjalla One', sans-serif; 
     font-size: 25px;  
     margin: 0px; 
@@ -307,7 +296,7 @@ h2 {
     color: rgb(3, 12, 41);
     margin: 25px 25px 80px 80px;
     padding: 0;
-    border-bottom: 5px solid #fbb740;
+    border-bottom: 5px solid #3a0a18;
 } 
 .project {    
     border: 3px solid rgb(150, 150, 170);
@@ -391,7 +380,7 @@ h4 {
     color: rgb(3, 12, 41);
     margin: 25px 25px 80px 70px;
     padding: 0;
-    border-bottom: 5px solid #fbb740;
+    border-bottom: 5px solid #3a0a18;
 }
 
 .experience-title{
