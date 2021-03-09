@@ -1,4 +1,5 @@
 /* font-family: 'Bodoni Moda', serif; */
+/* font-family: 'Crimson Text', serif; */
 
 body {
     background-color: #dddddd;
@@ -74,6 +75,7 @@ ul {
     margin-top: 10px;
     padding-top: 30px;
     font-weight: 800;
+    flex-wrap: wrap;
     
 }
 
@@ -193,9 +195,9 @@ ul {
 
 
 .about-description p {    
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Crimson Text', serif;
     display: flex;
     justify-content: center;
     margin: 0 20px;
@@ -221,14 +223,16 @@ ul {
 }
 
 .study-text {
-    margin: 0 150px;    
-    font-size: 20px;
+    margin: 0 150px;   
+    padding: 20px 30px 0 30px;
+    font-size: 22px;
     text-align: justify; 
     border-radius: 10px 10px; 
     box-shadow: 0px 0px 5px black;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Crimson Text', serif;
     display: flex;
     justify-content: center;
+    height: 230px;
    
        
 }
@@ -256,7 +260,7 @@ ul {
 
 .hability h2 {
     font-size: 50px;
-    font-family: 'Bodoni Moda', serif; 
+    font-family: 'Bodoni Moda', serif;  
     text-align: center;
     color: #cc561e;
     margin: 30px 70px;
@@ -268,12 +272,12 @@ ul {
 .hability-text {    
     padding: 20px;
     margin: 0 150px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;    
     border-radius: 10px 10px; 
     box-shadow: 0px 0px 5px black;
     align-items: center;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Crimson Text', serif;
     
     
 }
@@ -307,14 +311,14 @@ ul {
 } 
 
 .text-portafolio{
-    padding: 20px;
+    padding: 22px;
     margin: 0 100px 50px 100px;
     font-size: 20px;
     text-align: justify;    
     border-radius: 10px 10px; 
     box-shadow: 0px 0px 5px black;
     align-items: center;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Crimson Text', serif;
     
    
 }
@@ -504,9 +508,10 @@ ul {
 
 .experience-description {
     text-align: justify;    
-    font-size: 20px;  
+    font-size: 22px;  
     margin: 10px 0 20px 30px; 
     padding: 0;
+    font-family: 'Crimson Text', serif;
 }
 
 
@@ -591,6 +596,8 @@ ul {
 @media screen and (max-width:1024px){
     .main-container h1{
         margin: 0;
+        flex-wrap: wrap;
+        text-align: center;
     }
 
     .main-container figure{
@@ -602,23 +609,454 @@ ul {
        text-align: center;
     }
 
+    .about-description{
+        margin:0;
+        
+    }
+
     .about-description p{
-        margin-bottom: 20px;
+        margin: 30px;
+        padding: 0 30px;
+        
+    }
+
+    .study-text{
+        height: auto;
+        margin: 0 60px;
+        padding-bottom: 20px;
+
+    }
+
+    .hability{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hability h2{
+        margin-top: 50px;
+        padding-top: 30px;
+        
+    }
+
+    .hability-text{
+        height: auto;
+        margin: 0 70px;
+        padding-bottom: 20px;
+    }
+
+    .text-portafolio{
+        height: auto;
+        margin: 0 60px;
+        padding-bottom: 20px;
+    }
+
+    .contact-formulary p{
+        width: 300px;
+        font-size: 18px;
+         
+     }
+
+     .email{
+        margin: 20px 0 50px 0;
     }
 }
 
 /* ****************************767*************************** */
 @media screen and (max-width:767px){
+    .link {
+        font-size: 22px;
+    }
+    
+    .main-container h1{
+        text-align: center;
+        font-size: 60px;
+        padding: 0;
+    }
 
+    .main-text{
+        font-size: 40px;
+    }
+
+    .about-title h1{
+        font-size: 40px;
+        margin: 0;
+        position: relative;
+        top: -50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-name figure {
+        margin-top:0;
+    }
+    
+    .about-description{
+        margin: 0 60px;
+    }
+
+    .study-text{
+        margin: 0 80px;
+        font-size: 20px;
+    }
+
+    .hability-text{
+        margin: 0 83px;
+        font-size: 20px;
+    }
+
+    .text-portafolio{
+        margin: 0 83px;
+        font-size: 20px;
+    }
+
+    .experiences{
+        margin: 0 83px;
+        font-size: 20px;
+    }
+
+    .contact-formulary p{
+       width: 300px;
+       font-size: 18px;
+        
+    }
+
+    .email{
+        margin: 20px 0 50px 0;
+    }
+
+  
 }
 
 /* ****************************480*************************** */
 @media screen and (max-width:480px){
+    .link{
+        font-size: 15px;
+    }
+
+    .main{
+        height: 450px;
+    }
+
+    .main-container h1{
+        font-size: 50px;
+    }
+
+    .main-container figure img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .main-text{
+        flex-wrap: wrap;
+        font-size: 37px;
+    }
+
+    .about-description p{
+        margin: 0;
+        padding:0;
+        font-size: 20px;
+    }
+
+    .button-description{
+        height: 10px;
+    }
+
+    .button{
+        font-size: 15px;
+    }
+
+    .study-text{
+        margin: 10px;
+        padding:10px;
+        font-size: 20px;
+    }
+
+    .hability-text{
+        margin: 30px;
+        padding:10px;
+        font-size: 20px;
+    }
+
+    .text-portafolio{
+        margin: 10px;
+        padding:10px;
+        font-size: 20px;
+    }
+
+    .figure1 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .figure2 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .figure3 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .figure4 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .figure5 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .figure6 img{
+        width: 180px;
+        height: auto;
+        border-radius: 50px;
+        margin:0;
+        align-items: center;
+    }
+
+    .experiences{
+        margin: 30px;
+        padding:10px 20px 10px 10px;       
+        
+    }
+
+    .experience-description{
+        font-size: 20px;
+    }
+
+    .contact-formulary{
+        flex-wrap: wrap;
+    }
+
+    .contact-formulary p{
+        width: 300px;
+        font-size: 15px;  
+        margin-bottom:0;   
+         
+    }
+    .envio-email{
+        width: 300px;
+        border-radius: 0;
+        
+    }
+
+    .footer{
+        margin-top: 50px;
+    }
+ 
 
 }
 
 /* ****************************320*************************** */
 
 @media screen and (max-width:320px){
+    .link{
+        font-size: 10px;
+    }
+    
+    .main-container{
+        height: 400px;
+    }
+
+    .main-container h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .main-text{
+        font-size: 27px;
+    }
+
+    .about-title h1{
+        font-size: 35px;
+    }
+    
+    .about-name figure img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-container{
+        margin: 0;
+    }
+
+    .about-description {
+        margin: 0 20px 10px 20px;        
+        
+    }
+
+    .about-description p{
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .studies h2{
+        font-size: 37px;
+    }
+
+    .study-text{
+        font-size: 18px;
+        margin:30px;
+    }
+
+    .container-studies-text{
+        font-size: 15px;
+    }
+    
+    .hability h2{
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .hability-text{
+        font-size: 18px;
+    }
+
+    .projects{
+        margin: 0;
+        padding: 0;
+    }
+
+    .projects h2{
+        font-size: 35px; 
+        margin: 0;
+    }
+
+    .text-portafolio{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .experience h2{
+        font-size: 35px;
+    }
+
+    .contact h2{
+        font-size: 35px;
+    }
+
+    .portafolio-container1{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .portafolio-container2{
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .portafolio-container3{
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .figure1{
+        width: 100%;
+    }
+
+    .figure1 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px;        
+    }
+
+    .figure2{
+        width: 100%;
+    }
+
+   
+    .figure2 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px; 
+    }
+
+    .figure3{
+        width: 100%;
+    }
+
+    .figure3 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .figure4{
+        width: 100%;
+    }
+
+    .figure4 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .figure5{
+        width: 100%;
+    }
+
+    .figure5 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .figure6{
+        width: 100%;
+    }
+
+    .figure6 img{
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .experience h2{
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .experiences{
+        margin: 30px;
+        
+    }
+
+    .experience-description{
+        font-size: 18px;
+    }
+
+    .footer-detail{
+        font-size: 12px;
+    }
+
+    .footer p{
+        font-size: 13px;
+        margin: 10px;
+        text-align: center;
+    }
 
 }
